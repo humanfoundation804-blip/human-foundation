@@ -1,58 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Human Foundation</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Human Foundation charity helping humanity with food, education, medical aid and crypto donations.">
-<meta name="keywords" content="Human Foundation, charity, donation, BTC, WhatsApp, Pakistan">
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:#f5f5f5}
+body{margin:0;font-family:Arial;background:#f5f5f5}
 header{background:#0f766e;color:white;text-align:center;padding:20px}
-header h1{margin:5px 0;}
-header p{margin:5px 0;font-size:18px;}
-.card{background:white;margin:20px;padding:20px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,.1);}
-button{background:#0f766e;color:white;border:none;padding:10px 20px;border-radius:8px;cursor:pointer;}
-.logo{max-width:180px;margin:auto;display:block;}
-.gallery{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;}
-.gallery img{width:200px;height:150px;object-fit:cover;border-radius:10px;}
-footer{background:#0f766e;color:white;text-align:center;padding:15px;margin-top:20px;}
+.card{background:white;margin:20px;padding:20px;border-radius:10px}
+button{background:#0f766e;color:white;border:none;padding:10px 20px;border-radius:8px}
 </style>
 </head>
+
 <body>
 
 <header>
-<img src="A_logo_for_Human_Foundation.png" alt="Human Foundation Logo" class="logo">
 <h1>Human Foundation</h1>
 <p>Support Humanity – Donate ❤️</p>
 <a href="https://wa.me/923306191000"><button>WhatsApp Donate</button></a>
 </header>
 
-<section class="card">
-<h2>Donate via Bitcoin (BTC)</h2>
-<p style="word-break:break-all;">bc1q2my264jk8v69n0j6dqs3f73q4nurdp3duzlkm3</p>
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=bc1q2my264jk8v69n0j6dqs3f73q4nurdp3duzlkm3" alt="BTC QR Code">
+<div class="card">
+<h2>Donate via Bitcoin</h2>
+
+<p style="word-break:break-all">
+bc1q2my264jk8v69n0j6dqs3f73q4nurdp3duzlkm3
+</p>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=bc1q2my264jk8v69n0j6dqs3f73q4nurdp3duzlkm3">
+
 <br><br>
-<a href="bitcoin:bc1q2my264jk8v69n0j6dqs3f73q4nurdp3duzlkm3"><button>Donate with BTC</button></a>
-</section>
 
-<section class="card">
-<h2>Contact Us</h2>
-<p>Email: <a href="mailto:humanfoundation804@gmail.com">humanfoundation804@gmail.com</a></p>
-<p>Phone: +92 330 6191000</p>
-</section>
+<a href="bitcoin:bc1q2my264jk8v69n0j6dqs3f73q4nurdp3duzlkm3">
+<button>Donate BTC</button>
+</a>
 
-<section class="card gallery">
-<h2>Gallery</h2>
-<img src="https://via.placeholder.com/200x150?text=Charity+1" alt="Charity 1">
-<img src="https://via.placeholder.com/200x150?text=Charity+2" alt="Charity 2">
-<img src="https://via.placeholder.com/200x150?text=Charity+3" alt="Charity 3">
-<img src="https://via.placeholder.com/200x150?text=Charity+4" alt="Charity 4">
-</section>
+</div>
 
-<footer>
-<p>© 2026 Human Foundation | All Rights Reserved</p>
-</footer>
+<div class="card">
+Email: humanfoundation804@gmail.com<br>
+Phone: +923306191000
+</div>
 
 </body>
 </html>
